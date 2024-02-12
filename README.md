@@ -6,6 +6,7 @@ https://drive.google.com/file/d/1f6OVX0iC9agtAR6qQJHmlVz9r9EOkEG2/view?usp=shari
 - @capacitor/dialog
 
 # Features of this application:
+- Integration of ARCore by utilizing a Custom Capacitor Plugin!
 - CRUD functionality
 - Use of remote API (fakestoreapi.com) with Angular's built-in HTTP client
 - Loading spinner while waiting for API response 
@@ -23,3 +24,8 @@ https://drive.google.com/file/d/1f6OVX0iC9agtAR6qQJHmlVz9r9EOkEG2/view?usp=shari
 - How to use the Angular CLI to generate components and services  
 - Angular's dependency injection system is so easy to use! Super awesome feature
 - TypeScript
+
+# What I will learn next:
+- Deep dive into ARCore
+- How to do unit testing in Angular with Karma and Jasmine
+  
