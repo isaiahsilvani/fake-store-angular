@@ -1,27 +1,25 @@
-# AngularTestIsaiah
+# Quick Demo Video:
+https://drive.google.com/file/d/1f6OVX0iC9agtAR6qQJHmlVz9r9EOkEG2/view?usp=sharing
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.3.
+# Capacitor Plug-ins used:
+- @capacitor-community/sqlite
+- @capacitor/dialog
 
-## Development server
+# Features of this application:
+- CRUD functionality
+- Use of remote API (fakestoreapi.com) with Angular's built-in HTTP client
+- Loading spinner while waiting for API response 
+- Template Binding
+- Conditional Rendering
+- Two-way binding
+- Modular component architecture
+- Multiple services in use to achieve functionality
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Other things that I learned about:
+- How to set up Capacitor within an Angular project in order to build cross-platform mobile applications
+- How to make sure Angular project and Android Studio are in sync:
+  - ng build --configuration production
+  - npx cap sync
+- How to use the Angular CLI to generate components and services  
+- Angular's dependency injection system is so easy to use! Super awesome feature
+- TypeScript
