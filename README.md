@@ -4,7 +4,8 @@
 
 # Features of this application:
 - CRUD functionality
-- Use of remote API (fakestoreapi.com) with Angular's built-in HTTP client 
+- Use of remote API (fakestoreapi.com) with Angular's built-in HTTP client
+- Loading spinner while waiting for API response 
 - Template Binding
 - Conditional Rendering
 - Two-way binding
