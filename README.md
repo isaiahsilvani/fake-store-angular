@@ -1,10 +1,8 @@
-# Quick Demo Video:
+# Quick Demo Videos:
 
-Basic CRUD Functionality:
-https://drive.google.com/file/d/1f6OVX0iC9agtAR6qQJHmlVz9r9EOkEG2/view?usp=sharing
+Basic CRUD Functionality: https://drive.google.com/file/d/1f6OVX0iC9agtAR6qQJHmlVz9r9EOkEG2/view?usp=sharing
 
-ARCore Integration:
-https://drive.google.com/file/d/1ekJAHoUL_cGN9iTd6fsF4fxwW-MMSnGm/view?usp=sharing
+ARCore Integration: https://drive.google.com/file/d/1ekJAHoUL_cGN9iTd6fsF4fxwW-MMSnGm/view?usp=sharing
 
 # Capacitor Plug-ins used:
 - @capacitor-community/sqlite
