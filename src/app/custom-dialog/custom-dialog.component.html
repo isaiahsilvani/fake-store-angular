@@ -1,0 +1,18 @@
+<div class="custom-dialog-container">
+    <h1>Custom Dialog Experiment</h1>
+    <p>Made with the Dialog Capacitor Plug-in</p>
+  
+    <div class="box">
+      <h2>Show Alert</h2>
+      <input type="text" placeholder="Enter Title" [(ngModel)]="alertTitle"/>
+      <input type="text" placeholder="Enter Message" [(ngModel)]="alertMessage"/>
+      <button class="show-button" (click)="showAlert()">SHOW</button>
+    </div>
+  
+    <div class="box">
+      <h2>Show Confirmed</h2>
+      <input type="text" placeholder="Enter Title" [(ngModel)]="confirmTitle"/>
+      <input type="text" placeholder="Enter Message" [(ngModel)]="confirmMessage"/>
+      <button class="show-button" (click)="showConfirm()">SHOW</button>
+    </div>
+  </div>

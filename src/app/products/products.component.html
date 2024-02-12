@@ -1,0 +1,13 @@
+<div class="products-container">
+    <app-spinner *ngIf="isLoading"/>
+    <app-product-details *ngFor="let product of products"
+        id="{{ product.id }}"
+        title="{{ product.title }}"
+        imageUrl="{{ product.image }}"
+        category="{{ product.category }}"
+        price="{{product.price}}"
+        rate="{{ product.rating.rate }}"
+        count="{{ product.rating.count }}"
+        description="{{ product.description }}"
+    />
+</div>

@@ -1,0 +1,11 @@
+<div class="categories-container">
+  <app-spinner *ngIf="isLoading"/>
+  <div 
+    *ngFor="let item of categories" 
+    class="category-div" 
+    routerLink="/products/"
+    [queryParams]="{category: item}"
+  >
+    <h1 class="category">{{ item }}</h1>
+  </div>
+</div>

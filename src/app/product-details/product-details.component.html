@@ -1,0 +1,13 @@
+<div *ngIf="display" class="card">
+    <img src="{{ imageUrl }}" alt="Product Image">
+    <div class="card-content">
+      <div class="card-category">Category: {{ category }}</div>
+      <div class="card-title">{{ title }}</div>
+      <div class="card-description">{{ description }}</div>
+      <div class="card-price">${{ price }}</div>
+      <span class="card-rating">Rating: {{ rate }} ({{ count }} reviews)</span>
+      <span class="button-group">
+        <button class="details-btn" (click)="toggleButton()" >{{ isFavorited ? 'DELETE' : 'ADD' }}</button>
+      </span>
+    </div>
+  </div>

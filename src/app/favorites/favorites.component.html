@@ -1,0 +1,11 @@
+<div class="favorites-container">
+    <app-product-details *ngFor="let product of favoriteProducts"
+        title="{{ product.title }}"
+        imageUrl="{{ product.image }}"
+        category="{{ product.category }}"
+        price="{{product.price}}"
+        rate="{{ product.rating.rate }}"
+        count="{{ product.rating.count }}"
+        description="{{ product.description }}"
+    />
+</div>
