@@ -12,7 +12,7 @@
 - Modular component architecture
 - Multiple services in use to achieve functionality
 
-- # Other things that I learned about:
+# Other things that I learned about:
 - How to set up Capacitor within an Angular project in order to build cross-platform mobile applications
 - How to make sure Angular project and Android Studio are in sync:
   - ng build --configuration production
