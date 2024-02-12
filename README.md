@@ -27,8 +27,3 @@ ARCore Integration: https://drive.google.com/file/d/1ekJAHoUL_cGN9iTd6fsF4fxwW-M
 - How to use the Angular CLI to generate components and services  
 - Angular's dependency injection system is so easy to use! Super awesome feature
 - TypeScript
-
-# What I will learn next:
-- Deep dive into ARCore
-- How to do unit testing in Angular with Karma and Jasmine
-- Process for publishing an app on the Google Play Store
