@@ -1,3 +1,6 @@
+# Quick Demo Video:
+https://drive.google.com/file/d/1f6OVX0iC9agtAR6qQJHmlVz9r9EOkEG2/view?usp=sharing
+
 # Capacitor Plug-ins used:
 - @capacitor-community/sqlite
 - @capacitor/dialog
