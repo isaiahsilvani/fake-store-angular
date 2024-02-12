@@ -31,4 +31,4 @@ ARCore Integration: https://drive.google.com/file/d/1ekJAHoUL_cGN9iTd6fsF4fxwW-M
 # What I will learn next:
 - Deep dive into ARCore
 - How to do unit testing in Angular with Karma and Jasmine
-  
+- Process for publishing an app on the Google Play Store
