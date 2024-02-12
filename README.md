@@ -19,3 +19,4 @@
   - npx cap sync
 - How to use the Angular CLI to generate components and services  
 - Angular's dependency injection system is so easy to use! Super awesome feature
+- TypeScript
