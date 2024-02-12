@@ -24,10 +24,7 @@ export class FavoritesComponent implements OnInit {
 
   ngOnInit(): void {
     this.flags.setOnFavoritesFlag(true)
-    console.log("isaiah - init favorites!")
-    console.log(this.flags.getOnFavoritesFlag())
     this.favoriteProducts = this.service.getProducts()
-    console.log("isaiah " + this.favoriteProducts)
   }
 
   

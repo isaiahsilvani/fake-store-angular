@@ -9,11 +9,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+      <!-- Indicates whether "Google Play Services for AR" (ARCore) is "required" or "optional". -->
+      <meta-data android:name="com.google.ar.core" android:value="required" />
+
         <activity
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode"
             android:name=".MainActivity"
-            android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBarLaunch"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
             android:launchMode="singleTask"
             android:exported="true">
 
@@ -23,6 +26,14 @@
             </intent-filter>
 
         </activity>
+        <activity android:name=".SecondActivity">
+
+        </activity>
+      <activity android:name=".kotlin.helloar.HelloArActivity"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        >
+      </activity>
+
 
         <provider
             android:name="androidx.core.content.FileProvider"
@@ -37,5 +48,13 @@
 
     <!-- Permissions -->
 
-    <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.CAMERA"/>
+  <!-- Limits app visibility in the Google Play Store to ARCore supported devices
+       (https://developers.google.com/ar/devices). -->
+  <uses-feature android:name="android.hardware.camera.ar" android:required="true"/>
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+  <uses-feature
+    android:name="android.hardware.camera"
+    android:required="true" />
 </manifest>
